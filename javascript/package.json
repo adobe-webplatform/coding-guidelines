@@ -1,0 +1,33 @@
+{
+  "name": "javascript-coding-guidelines",
+  "version": "0.0.0",
+  "description": "Adobe Web Platform Javascript Coding Guidelines",
+  "main": "Gruntfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adobe-webplatform/coding-guidelines.git"
+  },
+  "keywords": [
+    "Adobe",
+    "JavaScript",
+    "Coding",
+    "Guide"
+  ],
+  "author": "@dam Kristofer Joseph",
+  "license": "Apache",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/adobe-webplatform/coding-guidelines/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-readme-generator": "~0.2.33",
+    "grunt-contrib-watch": "~0.4.4"
+  }
+}
