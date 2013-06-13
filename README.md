@@ -1,4 +1,4 @@
 coding-guidelines
 =================
 
-- use spaces (not tabs) or @brianleroux will kill you all
+    * [JavaScript](http://adobe-webplatform.github.io/coding-guidelines/javascript)
