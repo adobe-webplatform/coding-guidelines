@@ -421,19 +421,19 @@ Semicolons are **not** required for:
 
 - Prefix all jQuery variables with a `$`
 
-  Yes
+    Yes
 
-  ```
-  var $sidebar = $('.js-sidebar');
-  ```
->This also explicitly adds a js specific class as the JavaScript API.
->This keeps the API from breaking if someone else edits the sidebar css classes
+    ```
+    var $sidebar = $('.js-sidebar');
+    ```
+    >This also explicitly adds a js specific class as the JavaScript API.
+    >This keeps the API from breaking if someone else edits the sidebar css classes
 
-  No
+    No
 
-  ```
-  var sidebar = $('.sidebar');
-  ```
+    ```
+    var sidebar = $('.sidebar');
+    ```
 
 - API Considerations
 
