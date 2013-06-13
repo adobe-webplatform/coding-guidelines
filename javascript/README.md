@@ -252,7 +252,7 @@ encapsulation.
 
     ```
     if (typeof NaN == 'number') {
-        return 'WAT';
+        console.log('WAT');
     }
     ```
 
@@ -261,7 +261,7 @@ encapsulation.
     ```
     if (![] + [] == 'false')
     {
-        return 'WAT';
+        console.log('WAT');
     }
     ```
 

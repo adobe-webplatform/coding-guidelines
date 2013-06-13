@@ -52,7 +52,7 @@
 
     ```
     if (typeof NaN == 'number') {
-        return 'WAT';
+        console.log('WAT');
     }
     ```
 
@@ -61,6 +61,6 @@
     ```
     if (![] + [] == 'false')
     {
-        return 'WAT';
+        console.log('WAT');
     }
     ```
