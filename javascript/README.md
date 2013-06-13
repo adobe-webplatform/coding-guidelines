@@ -105,25 +105,6 @@ encapsulation.
     ```
     >Never use tabs
 
-- Place one space before leading brace
-
-    Yes
-
-    ```
-    function boom() {
-        console.log('BOOM!');
-    }
-    ```
-
-    No
-
-    ```
-    function boom(){
-        console.log('BOOM!');
-    }
-    ```
-
-
 
 
 ## Semicolons
@@ -273,6 +254,23 @@ Semicolons are **not** required for:
         console.log('WAT');
     }
     ```
+- Place one space before leading brace
+
+    Yes
+
+    ```
+    function boom() {
+        console.log('BOOM!');
+    }
+    ```
+
+    No
+
+    ```
+    function boom(){
+        console.log('BOOM!');
+    }
+    ```
 
 
 ## Functions
@@ -400,18 +398,18 @@ Semicolons are **not** required for:
 ## API
 [[Back To Top]](#javascript-coding-guidelines)
 
-- Use JavaScript namespaced selectors as your API
+- Use namespaced selectors for your JavaScript API
 
     Yes
 
     ```
-    <a href="#" class="js-clickable">Click Me</a>
+    <a href="#" class="submit-button js-submit">Submit</a>
     ```
 
     No
 
     ```
-    <a href="#" class="myButton">Click Me</a>
+    <a href="#" class="submit-button">Submit</a>
     ```
 >This creates a specific separation of concerns between styling and JavaScript
 >API. Keeps others from accidentally breaking JavaScript code when refactoring

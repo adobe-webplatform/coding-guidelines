@@ -1,15 +1,15 @@
-- Use JavaScript namespaced selectors as your API
+- Use namespaced selectors for your JavaScript API
 
     Yes
 
     ```
-    <a href="#" class="js-clickable">Click Me</a>
+    <a href="#" class="submit-button js-submit">Submit</a>
     ```
 
     No
 
     ```
-    <a href="#" class="myButton">Click Me</a>
+    <a href="#" class="submit-button">Submit</a>
     ```
 >This creates a specific separation of concerns between styling and JavaScript
 >API. Keeps others from accidentally breaking JavaScript code when refactoring
