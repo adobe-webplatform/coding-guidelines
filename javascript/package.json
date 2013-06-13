@@ -1,7 +1,7 @@
 {
   "name": "javascript-coding-guidelines",
   "version": "0.0.0",
-  "description": "Adobe Web Platform Javascript Coding Guidelines",
+  "description": "Adobe Web Platform JavaScript Coding Guidelines",
   "main": "Gruntfile.js",
   "directories": {
     "doc": "docs"

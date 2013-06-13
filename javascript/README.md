@@ -1,6 +1,6 @@
 # JavaScript Coding Guidelines 
 
-> Adobe Web Platform Javascript Coding Guidelines
+> Adobe Web Platform JavaScript Coding Guidelines
 
 ## Jump to Section
 
@@ -14,6 +14,7 @@
 * [Syntax](#syntax)
 * [Functions](#functions)
 * [Modules](#modules)
+* [API](#api)
 * [jQuery](#jquery)
 
 ## JSLint
@@ -33,22 +34,22 @@
 - Do not introduce global variables
 
 >See modules. Any variable not defined inside function or module scope will be
->attached to the global window object. Polluting the global scope breaks
->encapsulation.
+attached to the global window object. Polluting the global scope breaks
+encapsulation.
 
 - Browser globals should be referenced via the `window` object
 
-  Yes
+    Yes
 
-  ```
-  window.setTimeout();
-  ```
+    ```
+    window.setTimeout();
+    ```
 
-  No
+    No
 
-  ```
-  setTimeout();
-  ```
+    ```
+    setTimeout();
+    ```
 
 
 ## Primitives
@@ -99,9 +100,10 @@
 
     ```
     var boom = function () {
-    ....return "BOOM!";
+    ..return "BOOM!";
     }
     ```
+>Never use tabs
 
 - Place one space before leading brace
 
@@ -172,25 +174,25 @@
 
 - Commas go at the end of the line
 
-  Yes
+    Yes
 
-  ```
-  var garth = {
+    ```
+    var garth = {
     party: 'on',
     friend: 'wayne',
     lady: 'foxy'
-  };
-  ```
+    };
+    ```
 
-  No
+    No
 
-  ```
-  var garth = {
-      party: 'on'
+    ```
+    var garth = {
+        party: 'on'
     , friend: 'wayne'
     , lady: 'foxy'
-  };
-  ```
+    };
+    ```
 
 
 ## Syntax
@@ -198,69 +200,69 @@
 
 - Use camel case
 
-  Yes
+    Yes
 
-  ```
-  var goodVariable = 'Good';
-  ``
+    ```
+    var goodVariable = 'Good';
+    ``
 
-  No
+    No
 
-  ```
-  var bad_variable = 'Bad';
-  ```
+    ```
+    var bad_variable = 'Bad';
+    ```
 
 - Prefix private variables with an underscore
 
-  Yes
+    Yes
 
-  ```
-  var _privateFunc = function _privateFunc() {
-    return 42;
-  }
-  ```
+    ```
+    var _privateFunc = function _privateFunc() {
+        return 42;
+    }
+    ```
 
-  No
+    No
 
-  ```
-  var privateVar = 42;
-  ```
+    ```
+    var privateVar = 42;
+    ```
 
 - Use same line opening bracket
 
-  Yes
+    Yes
 
-  ```
-  var goodFunction = function goodFunction() {
-    return 'Good';
-  }
-  ```
+    ```
+    var goodFunction = function goodFunction() {
+        return 'Good';
+    }
+    ```
 
-  No
+    No
 
-  ```
-  var badFunction = function badFunction()
-  {
-    return 'Nope';
-  }
-  ```
+    ```
+    var badFunction = function badFunction()
+    {
+        return 'Nope';
+    }
+    ```
 
-  Yes
+    Yes
 
-  ```
-  if (typeof NaN == 'number') {
-    return 'WAT';
-  }
-  ```
+    ```
+    if (typeof NaN == 'number') {
+        return 'WAT';
+    }
+    ```
 
-  No
+    No
 
-  ```
-  if (![] + [] == 'false')
-  {
-    return 'WAT';
-  }
-  ```
+    ```
+    if (![] + [] == 'false')
+    {
+        return 'WAT';
+    }
+    ```
 
 
 ## Functions
@@ -383,6 +385,27 @@
     ```
 
 >See Functions
+
+
+## API
+[[Back To Top]](#javascript-coding-guidelines)
+
+- Use JavaScript namespaced selectors as your API
+
+    Yes
+
+    ```
+    <a href="#" class="js-clickable">Click Me</a>
+    ```
+
+    No
+
+    ```
+    <a href="#" class="myButton">Click Me</a>
+    ```
+>This creates a specific separation of concerns between styling and JavaScript
+>API. Keeps others from accidentally breaking JavaScript code when refactoring
+>styles.
 
 
 ## jQuery

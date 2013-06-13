@@ -1,21 +1,21 @@
 - Commas go at the end of the line
 
-  Yes
+    Yes
 
-  ```
-  var garth = {
+    ```
+    var garth = {
     party: 'on',
     friend: 'wayne',
     lady: 'foxy'
-  };
-  ```
+    };
+    ```
 
-  No
+    No
 
-  ```
-  var garth = {
-      party: 'on'
+    ```
+    var garth = {
+        party: 'on'
     , friend: 'wayne'
     , lady: 'foxy'
-  };
-  ```
+    };
+    ```

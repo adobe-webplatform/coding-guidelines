@@ -29,6 +29,7 @@ module.exports = function(grunt) {
                     "syntax.md": "Syntax",
                     "functions.md": "Functions",
                     "modules.md": "Modules",
+                    "api.md": "API",
                     "jquery.md": "jQuery"
                 },
             },

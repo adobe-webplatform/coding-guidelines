@@ -12,9 +12,10 @@
 
     ```
     var boom = function () {
-    ....return "BOOM!";
+    ..return "BOOM!";
     }
     ```
+>Never use tabs
 
 - Place one space before leading brace
 

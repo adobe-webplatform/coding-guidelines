@@ -1,65 +1,65 @@
 - Use camel case
 
-  Yes
+    Yes
 
-  ```
-  var goodVariable = 'Good';
-  ``
+    ```
+    var goodVariable = 'Good';
+    ``
 
-  No
+    No
 
-  ```
-  var bad_variable = 'Bad';
-  ```
+    ```
+    var bad_variable = 'Bad';
+    ```
 
 - Prefix private variables with an underscore
 
-  Yes
+    Yes
 
-  ```
-  var _privateFunc = function _privateFunc() {
-    return 42;
-  }
-  ```
+    ```
+    var _privateFunc = function _privateFunc() {
+        return 42;
+    }
+    ```
 
-  No
+    No
 
-  ```
-  var privateVar = 42;
-  ```
+    ```
+    var privateVar = 42;
+    ```
 
 - Use same line opening bracket
 
-  Yes
+    Yes
 
-  ```
-  var goodFunction = function goodFunction() {
-    return 'Good';
-  }
-  ```
+    ```
+    var goodFunction = function goodFunction() {
+        return 'Good';
+    }
+    ```
 
-  No
+    No
 
-  ```
-  var badFunction = function badFunction()
-  {
-    return 'Nope';
-  }
-  ```
+    ```
+    var badFunction = function badFunction()
+    {
+        return 'Nope';
+    }
+    ```
 
-  Yes
+    Yes
 
-  ```
-  if (typeof NaN == 'number') {
-    return 'WAT';
-  }
-  ```
+    ```
+    if (typeof NaN == 'number') {
+        return 'WAT';
+    }
+    ```
 
-  No
+    No
 
-  ```
-  if (![] + [] == 'false')
-  {
-    return 'WAT';
-  }
-  ```
+    ```
+    if (![] + [] == 'false')
+    {
+        return 'WAT';
+    }
+    ```
