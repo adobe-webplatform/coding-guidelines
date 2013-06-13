@@ -21,6 +21,7 @@ module.exports = function(grunt) {
                 order: {
                     "jslint.md": "JSLint",
                     "globals.md": "Globals",
+                    "variables.md": "Variables",
                     "primitives.md": "Primitives",
                     "whitespace.md": "Whitespace",
                     "semicolons.md": "Semicolons",
