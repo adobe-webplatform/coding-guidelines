@@ -1,4 +1,4 @@
-coding-guidelines
+[Adobe Web Platform Coding Guidelines](http://html.adobe.com)
 =================
 
-    * [JavaScript](http://adobe-webplatform.github.io/coding-guidelines/javascript)
+* [JavaScript](ihttps://github.com/adobe-webplatform/coding-guidelines/tree/master/javascript)

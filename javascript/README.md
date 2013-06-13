@@ -103,7 +103,7 @@ encapsulation.
     ..return "BOOM!";
     }
     ```
->Never use tabs
+    >Never use tabs
 
 - Place one space before leading brace
 
@@ -178,9 +178,9 @@ encapsulation.
 
     ```
     var garth = {
-    party: 'on',
-    friend: 'wayne',
-    lady: 'foxy'
+        party: 'on',
+        friend: 'wayne',
+        lady: 'foxy'
     };
     ```
 
@@ -189,8 +189,8 @@ encapsulation.
     ```
     var garth = {
         party: 'on'
-    , friend: 'wayne'
-    , lady: 'foxy'
+      , friend: 'wayne'
+      , lady: 'foxy'
     };
     ```
 
@@ -204,7 +204,8 @@ encapsulation.
 
     ```
     var goodVariable = 'Good';
-    ``
+    ```
+
 
     No
 

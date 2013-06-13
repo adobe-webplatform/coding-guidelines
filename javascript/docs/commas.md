@@ -4,9 +4,9 @@
 
     ```
     var garth = {
-    party: 'on',
-    friend: 'wayne',
-    lady: 'foxy'
+        party: 'on',
+        friend: 'wayne',
+        lady: 'foxy'
     };
     ```
 
@@ -15,7 +15,7 @@
     ```
     var garth = {
         party: 'on'
-    , friend: 'wayne'
-    , lady: 'foxy'
+      , friend: 'wayne'
+      , lady: 'foxy'
     };
     ```
