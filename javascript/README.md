@@ -188,6 +188,7 @@ Semicolons are **not** required for:
     * switch
     * try
     * while
+    * with
 
 
 
